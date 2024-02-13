@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    /* background-color: #1D1D1F; */
+}
+
+.container ul{
+    display: flex;
+    gap: 30px;
+    
+
+}
+
+.container li{
+    list-style: none;
+    
+
+}
+		
+
+
+
+.iphone15pro{
+    background-image: url(./images/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position-x: center;
+    text-align: center;
+    color: white;
+}
+.iphone15pro div{
+    position: relative;
+    top: 5%;
+}
+
+.visionpro{
+    background-image: url(./images/hero_apple_vision_pro_avail__ecthwv10twsy_large.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position-x: center;
+    text-align: center;
+    color: black    ;
+}
+.visionpro div{
+    position: relative;
+    top: 75%;
+}
+.valentinesday{
+    background-image: url(./images/hero_valentines_day_2024__dyne8c2no3ki_large.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position-x: center;
+    text-align: center;
+    color: black    ;
+}
+.valentinesday div{
+    position: relative;
+    top: 70%;
+}
+
+.content15{
+    position: relative;
+    bottom: 70%;
+}
+.contentwatch{
+    position: relative;
+    bottom: 70%;
+    color: white;
+}
+
+.contentmac{
+    position: relative;
+    bottom: 75%;
+}
+
+.contentipad{
+    position: relative;
+    bottom: 76%;
+}
+
+.contentcard{
+    position: relative;
+    bottom: 75%;
+}
+
+.contenttrade{
+    position: relative;
+    bottom: 75%;
+}
+
+.card{
+    border: none;
+}
+
+.footer1{
+    text-align:left;
+    background-color: #F5F5F7;
+}
+
+.footer1 div{
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+}
+
+.footer2{
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 200px;
+
+}
+
+.footer2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer2 a:hover{
+    text-decoration: underline;
+}
+
+.footer1 p{
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    .footer2{
+        display: none;
+    }
+    .items{
+        display: none;
+    }
+    .apple{
+        position: relative;
+        right: 320%;
+        
+    }
+    .bag,.search{
+        position: relative;
+        left: 300%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:425px) {
+    .iphone15pro{
+        background-image: url(./images/hero_iphone15pro__i70z9oz3hj2i_small_2x.jpg);
+    }
+    .apple{
+        right: 150%;
+    }
+    .bag,.search{
+        left: 140%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .apple{
+        right: 140%;
+    }
+    .bag,.search{
+        left: 110%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .apple{
+        right: 100%;
+    }
+    .bag,.search{
+        left: 80%;
+    }
+}
